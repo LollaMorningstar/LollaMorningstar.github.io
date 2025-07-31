@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lolla Morningstar - Modelo Alternativa</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      background-color: #111;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 3px solid #ff0000;
+    }
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+      margin: 0;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .highlight {
+      color: #ff0000;
+    }
+    .medidas, .contato {
+      background-color: #111;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-left: 3px solid #ff0000;
+    }
+    .galeria {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .foto-placeholder {
+      background-color: #222;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #888;
+      border: 1px dashed #444;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #111;
+      border-top: 3px solid #ff0000;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #ff0000;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Lolla <span class="highlight">Morningstar</span></h1>
+    <p>Modelo alternativa • Gótica • Estilo editorial punk</p>
+  </header>
+
+  <section>
+    <h2>Sobre Mim</h2>
+    <p>Sou Lolla Morningstar, uma modelo alternativa com estética gótica, presença marcante e olhar intenso. Minhas inspirações vêm do submundo punk, do romance sombrio e da força de ser quem se é. Faço da minha imagem uma arte e da minha presença, um manifesto.</p>
+  </section>
+
+  <section class="medidas">
+    <h2>Medidas</h2>
+    <ul>
+      <li>Altura: 1,60m</li>
+      <li>Cintura: 70cm</li>
+      <li>Busto: 100cm</li>
+      <li>Quadril: 100cm</li>
+      <li>Cabelo: Goddess braids preto</li>
+      <li>Olhos: Castanho escuro</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Galeria</h2>
+    <div class="galeria">
+      <div class="foto-placeholder">Foto 1</div>
+      <div class="foto-placeholder">Foto 2</div>
+      <div class="foto-placeholder">Foto 3</div>
+      <div class="foto-placeholder">Foto 4</div>
+    </div>
+  </section>
+
+  <section class="contato">
+    <h2>Contato</h2>
+    <p><strong>Instagram:</strong> <a href="https://instagram.com/lollamorningstar" target="_blank">@lollamorningstar</a></p>
+    <p><strong>Email profissional:</strong> <a href="mailto:lollamorningstar.work@gmail.com">lollamorningstar.work@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lolla Morningstar • Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
